@@ -1,0 +1,130 @@
+html {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+}
+
+h1 {
+
+    text-align: center;
+}
+/* Calculator */
+#calculator {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 20px solid lightgreen;
+    border-radius: 25px;
+    margin-top: 100px;
+    width: 500px;
+    height: 600px;
+    background-color: lightsalmon;
+}
+
+/* screen */
+#screen {
+
+    margin: 25px 75px;
+    background-color: darkgrey;
+    width: 450px;
+    height: 120px;
+    border: 3px solid lightgreen;
+    border-radius: 9px;
+    position: relative;
+}
+
+/* num1 */
+#result {
+
+    position: absolute;
+    bottom: 55px;
+    right: 10px;
+}
+
+/* num2 */
+#current {
+
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* buttons */
+#buttons {
+
+    background-color: lightslategrey;
+    border: 3px solid lightgreen;
+    border-radius: 9px;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#numbers {
+
+    padding: 40px 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+
+button {
+
+    width: 70px;
+    height: 40px;
+
+}
+
+.numButton, .dButton, .empty {
+
+    background-color: darkgrey;
+}
+
+.cButton, .deleteButton {
+
+    background-color: darkred;
+}
+
+.eqButton {
+
+    background-color: darkgreen;
+}
+
+.opButton {
+
+    background-color: lightseagreen;
+}
+
+button {
+
+    border: 3px solid lightgreen;
+    border-radius: 5px;
+}
+
+.numButton:hover, .dButton:hover {
+
+    background-color: lightsalmon;
+}
+
+.opButton:hover {
+
+    background-color: seagreen;
+}
+
+.eqButton:hover {
+
+    background-color: green;
+}
+
+.cButton:hover, .deleteButton:hover {
+
+    background-color: red;
+}
+
+
